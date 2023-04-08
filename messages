@@ -1,0 +1,163 @@
+Apr  8 09:40:16 debian vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Apr  8 09:40:16 debian kernel: [    3.505287] 12:40:16.096919 main     VBoxService 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:52) release log
+Apr  8 09:40:16 debian kernel: [    3.505287] 12:40:16.09692
+Apr  8 09:40:16 debian kernel: [    3.505502] 12:40:16.097514 main     OS Product: Linux
+Apr  8 09:40:16 debian kernel: [    3.505732] 12:40:16.097708 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:16 debian kernel: [    3.506074] 12:40:16.097937 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:16 debian kernel: [    3.506630] 12:40:16.098279 main     Executable: /opt/VBoxGuestAdditions-7.0.4/sbin/VBoxService
+Apr  8 09:40:16 debian kernel: [    3.506630] 12:40:16.098279 main     Process ID: 638
+Apr  8 09:40:16 debian kernel: [    3.506630] 12
+Apr  8 09:40:16 debian kernel: [    3.508523] 12:40:16.100404 main     7.0.4 r154605 started. Verbose level = 0
+Apr  8 09:40:16 debian vboxadd-service.sh: VirtualBox Guest Addition service started.
+Apr  8 09:40:16 debian kernel: [    3.511494] 12:40:16.103337 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Apr  8 09:40:16 debian kernel: [    3.512242] 12:40:16.103911 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:59) release log
+Apr  8 09:40:16 debian kernel: [    3.512242] 12:40:16.103912
+Apr  8 09:40:16 debian kernel: [    3.512450] 12:40:16.104470 main     OS Product: Linux
+Apr  8 09:40:16 debian kernel: [    3.512725] 12:40:16.104712 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:16 debian kernel: [    3.513042] 12:40:16.104930 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:16 debian kernel: [    3.513557] 12:40:16.105247 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxDRMClient
+Apr  8 09:40:16 debian kernel: [    3.513557] 12:40:16.105247 main     Process ID: 645
+Apr  8 09:40:16 debian kernel: [    3.513557] 1
+Apr  8 09:40:16 debian kernel: [    3.514053] 12:40:16.105897 main     VBoxDRMClient: found compatible device: /dev/dri/renderD128
+Apr  8 09:40:16 debian kernel: [    3.514808] 12:40:16.106658 main     VBoxDRMClient: IPC server socket access granted to all users
+Apr  8 09:40:16 debian lightdm[629]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:40:16 debian lightdm[683]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:40:16 debian pulseaudio[703]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:40:16 debian pulseaudio[703]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:40:17 debian kernel: [    3.518190] 12:40:16.109715 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:40:17 debian kernel: [    5.208960] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr  8 09:40:17 debian kernel: [    5.209259] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Apr  8 09:40:30 debian lightdm[771]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:40:30 debian pulseaudio[792]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:40:30 debian pulseaudio[792]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:40:30 debian kernel: [   18.128735] 12:40:30.727269 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:30 debian kernel: [   18.128735] 12:40:30.727271
+Apr  8 09:40:30 debian kernel: [   18.128924] 12:40:30.727812 main     OS Product: Linux
+Apr  8 09:40:30 debian kernel: [   18.129149] 12:40:30.727992 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:30 debian kernel: [   18.129445] 12:40:30.728217 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:30 debian kernel: [   18.129954] 12:40:30.728512 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:30 debian kernel: [   18.129954] 12:40:30.728512 main     Process ID: 846
+Apr  8 09:40:30 debian kernel: [   18.129954] 12:4
+Apr  8 09:40:30 debian kernel: [   18.130435] 12:40:30.729051 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:30 debian kernel: [   18.130661] 12:40:30.729505 main      Service: Shared Clipboard
+Apr  8 09:40:30 debian kernel: [   18.132173] 12:40:30.731016 main      Initializing service ...
+Apr  8 09:40:30 debian kernel: [   18.132390] 12:40:30.731244 main      Creating worker thread ...
+Apr  8 09:40:30 debian kernel: [   18.133047] 12:40:30.731603 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:30 debian kernel: [   18.133047] 12:40:30.731605
+Apr  8 09:40:30 debian kernel: [   18.133240] 12:40:30.732124 main     OS Product: Linux
+Apr  8 09:40:30 debian kernel: [   18.133459] 12:40:30.732311 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:30 debian kernel: [   18.133767] 12:40:30.732529 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:30 debian kernel: [   18.134333] 12:40:30.732886 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:30 debian kernel: [   18.134333] 12:40:30.732887 main     Process ID: 851
+Apr  8 09:40:30 debian kernel: [   18.134333] 12:4
+Apr  8 09:40:30 debian kernel: [   18.134846] 12:40:30.733457 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:30 debian kernel: [   18.135131] 12:40:30.733935 main      Service: VirtualBox host version check
+Apr  8 09:40:30 debian kernel: [   18.136879] 12:40:30.735713 main      Creating worker thread ...
+Apr  8 09:40:30 debian kernel: [   18.138049] 12:40:30.736932 main      Service started
+Apr  8 09:40:30 debian kernel: [   18.138658] 12:40:30.737237 hostversion  Guest Additions update found! Please upgrade this machine to the latest Guest Additions.
+Apr  8 09:40:30 debian kernel: [   18.139154] 12:40:30.737608 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:30 debian kernel: [   18.139154] 12:40:30.737609
+Apr  8 09:40:30 debian kernel: [   18.139338] 12:40:30.738237 main     OS Product: Linux
+Apr  8 09:40:30 debian kernel: [   18.139575] 12:40:30.738410 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:30 debian kernel: [   18.139912] 12:40:30.738676 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:30 debian kernel: [   18.140439] 12:40:30.739007 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:30 debian kernel: [   18.140439] 12:40:30.739008 main     Process ID: 858
+Apr  8 09:40:30 debian kernel: [   18.140439] 12:4
+Apr  8 09:40:30 debian kernel: [   18.140869] 12:40:30.739515 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:30 debian kernel: [   18.141106] 12:40:30.739944 main      Service: Seamless Mode Support
+Apr  8 09:40:30 debian kernel: [   18.141763] 12:40:30.740658 main      Service started
+Apr  8 09:40:30 debian kernel: [   18.143009] 12:40:30.741798 main      Initializing service ...
+Apr  8 09:40:30 debian kernel: [   18.144052] 12:40:30.742895 main      Creating worker thread ...
+Apr  8 09:40:30 debian kernel: [   18.144646] 12:40:30.743194 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:30 debian kernel: [   18.144646] 12:40:30.743196
+Apr  8 09:40:30 debian kernel: [   18.144835] 12:40:30.743731 main     OS Product: Linux
+Apr  8 09:40:30 debian kernel: [   18.145060] 12:40:30.743910 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:30 debian kernel: [   18.145359] 12:40:30.744135 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:30 debian kernel: [   18.145872] 12:40:30.744434 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:30 debian kernel: [   18.145872] 12:40:30.744434 main     Process ID: 866
+Apr  8 09:40:30 debian kernel: [   18.145872] 12:4
+Apr  8 09:40:30 debian kernel: [   18.146347] 12:40:30.744972 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:30 debian kernel: [   18.146617] 12:40:30.745424 main      Service: Drag'n'Drop
+Apr  8 09:40:30 debian kernel: [   18.147712] 12:40:30.746529 main      Service started
+Apr  8 09:40:30 debian kernel: [   18.149991] 12:40:30.748352 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:30 debian kernel: [   18.149991] 12:40:30.748353
+Apr  8 09:40:30 debian kernel: [   18.150246] 12:40:30.749120 main     OS Product: Linux
+Apr  8 09:40:30 debian kernel: [   18.150505] 12:40:30.749325 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:30 debian kernel: [   18.150870] 12:40:30.749584 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:30 debian kernel: [   18.151421] 12:40:30.749948 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:30 debian kernel: [   18.151421] 12:40:30.749948 main     Process ID: 873
+Apr  8 09:40:30 debian kernel: [   18.151421] 12:4
+Apr  8 09:40:30 debian kernel: [   18.151872] 12:40:30.750502 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:30 debian kernel: [   18.152113] 12:40:30.750951 main      Service: VMSVGA display assistant
+Apr  8 09:40:30 debian kernel: [   18.154741] 12:40:30.753595 main      Initializing service ...
+Apr  8 09:40:30 debian kernel: [   18.155374] 12:40:30.754087 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GNOME3'
+Apr  8 09:40:30 debian kernel: [   18.155729] 12:40:30.754454 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GENERIC'
+Apr  8 09:40:30 debian kernel: [   18.157507] 12:40:30.756128 main     VBoxClient VMSVGA: attempt to start display change monitor thread, rc=VINF_SUCCESS
+Apr  8 09:40:30 debian kernel: [   18.157966] 12:40:30.756626 main     VBoxClient VMSVGA: using Desktop Environment specific display helper 'GENERIC'
+Apr  8 09:40:30 debian kernel: [   18.158271] 12:40:30.757066 main     VBoxClient VMSVGA: Creating worker thread ...
+Apr  8 09:40:30 debian kernel: [   18.158874] 12:40:30.757651 IpcCLT-877 VBoxDRMClient: IPC client connection started
+Apr  8 09:40:30 debian kernel: [   18.160220] 12:40:30.759049 main     VBoxClient VMSVGA: Service started
+Apr  8 09:40:30 debian kernel: [   18.160738] 12:40:30.759603 main      Initializing service ...
+Apr  8 09:40:30 debian kernel: [   18.163085] 12:40:30.761935 main      Creating worker thread ...
+Apr  8 09:40:30 debian kernel: [   18.165271] 12:40:30.764072 dnd       Proxy window=10485761, root window=1330 ...
+Apr  8 09:40:30 debian kernel: [   18.165534] 12:40:30.764429 main      Service started
+Apr  8 09:40:30 debian kernel: [   18.232286] 12:40:30.831054 hostversion  VirtualBox Guest Additions update available!
+Apr  8 09:40:31 debian kernel: [   18.987128] 12:40:31.586046 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:31 debian kernel: [   18.987128] 12:40:31.586048
+Apr  8 09:40:31 debian kernel: [   18.987346] 12:40:31.586657 main     OS Product: Linux
+Apr  8 09:40:31 debian kernel: [   18.987588] 12:40:31.586844 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:31 debian kernel: [   18.987900] 12:40:31.587085 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:31 debian kernel: [   18.988435] 12:40:31.587397 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:31 debian kernel: [   18.988435] 12:40:31.587397 main     Process ID: 1005
+Apr  8 09:40:31 debian kernel: [   18.988435] 12:
+Apr  8 09:40:31 debian kernel: [   18.988931] 12:40:31.587935 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:31 debian kernel: [   18.989161] 12:40:31.588438 main      Service: Shared Clipboard
+Apr  8 09:40:31 debian colord[1006]: failed to get edid data: EDID length is too small
+Apr  8 09:40:31 debian kernel: [   19.024714] 12:40:31.623682 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:31 debian kernel: [   19.024714] 12:40:31.623684
+Apr  8 09:40:31 debian kernel: [   19.024915] 12:40:31.624254 main     OS Product: Linux
+Apr  8 09:40:31 debian kernel: [   19.025150] 12:40:31.624433 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:31 debian kernel: [   19.025658] 12:40:31.624844 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:31 debian kernel: [   19.026175] 12:40:31.625176 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:31 debian kernel: [   19.026175] 12:40:31.625177 main     Process ID: 1015
+Apr  8 09:40:31 debian kernel: [   19.026175] 12:
+Apr  8 09:40:31 debian kernel: [   19.026791] 12:40:31.625843 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:31 debian kernel: [   19.027097] 12:40:31.626310 main      Service: VirtualBox host version check
+Apr  8 09:40:31 debian kernel: [   19.043538] 12:40:31.642486 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:31 debian kernel: [   19.043538] 12:40:31.642487
+Apr  8 09:40:31 debian kernel: [   19.044180] 12:40:31.643489 main     OS Product: Linux
+Apr  8 09:40:31 debian kernel: [   19.044515] 12:40:31.643795 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:31 debian kernel: [   19.044845] 12:40:31.644041 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:31 debian kernel: [   19.045379] 12:40:31.644371 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:31 debian kernel: [   19.045379] 12:40:31.644372 main     Process ID: 1022
+Apr  8 09:40:31 debian kernel: [   19.045379] 12:
+Apr  8 09:40:31 debian kernel: [   19.045972] 12:40:31.645004 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:31 debian kernel: [   19.054256] 12:40:31.653511 main      Service: Seamless Mode Support
+Apr  8 09:40:31 debian kernel: [   19.058441] 12:40:31.657706 main      Creating worker thread ...
+Apr  8 09:40:31 debian kernel: [   19.067213] 12:40:31.666113 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:31 debian kernel: [   19.067213] 12:40:31.666115
+Apr  8 09:40:31 debian kernel: [   19.067467] 12:40:31.666772 main     OS Product: Linux
+Apr  8 09:40:31 debian kernel: [   19.068092] 12:40:31.667378 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:31 debian kernel: [   19.068562] 12:40:31.667752 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:31 debian kernel: [   19.069191] 12:40:31.668197 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:31 debian kernel: [   19.069191] 12:40:31.668198 main     Process ID: 1031
+Apr  8 09:40:31 debian kernel: [   19.069191] 12:
+Apr  8 09:40:31 debian kernel: [   19.070143] 12:40:31.669199 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:31 debian kernel: [   19.070338] 12:40:31.669684 main      Service: Drag'n'Drop
+Apr  8 09:40:31 debian kernel: [   19.077295] 12:40:31.676222 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:40:31 debian kernel: [   19.077295] 12:40:31.676224
+Apr  8 09:40:31 debian kernel: [   19.077566] 12:40:31.676904 main     OS Product: Linux
+Apr  8 09:40:31 debian kernel: [   19.077802] 12:40:31.677110 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:40:31 debian kernel: [   19.078134] 12:40:31.677345 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:40:31 debian kernel: [   19.078693] 12:40:31.677677 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:40:31 debian kernel: [   19.078693] 12:40:31.677678 main     Process ID: 1037
+Apr  8 09:40:31 debian kernel: [   19.078693] 12:
+Apr  8 09:40:31 debian kernel: [   19.079180] 12:40:31.678239 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:40:31 debian kernel: [   19.079443] 12:40:31.678724 main      Service: VMSVGA display assistant
+Apr  8 09:40:31 debian kernel: [   19.100116] 12:40:31.699442 main      Service started
+Apr  8 09:40:31 debian kernel: [   19.101930] 12:40:31.701241 main      Initializing service ...
+Apr  8 09:40:31 debian kernel: [   19.105752] 12:40:31.704847 main     VBoxClient VMSVGA: Error: Service ended with error VERR_FILE_LOCK_VIOLATION
+Apr  8 09:40:32 debian org.freedesktop.thumbnails.Thumbnailer1[986]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  8 09:40:32 debian org.freedesktop.thumbnails.Thumbnailer1[986]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  8 09:40:32 debian org.freedesktop.thumbnails.Thumbnailer1[986]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Apr  8 09:50:16 debian rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="348" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
